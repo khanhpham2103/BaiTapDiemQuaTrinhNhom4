@@ -1,4 +1,4 @@
-package com.nguyenhuutrong.bai3;
+package com.nguyenhuutrong.rssreader;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.nguyenhuutrong.bai3", appContext.getPackageName());
+        assertEquals("com.nguyenhuutrong.rssreader", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package com.nguyenhuutrong.bai3;
+package com.nguyenhuutrong.rssreader;
 
 import android.util.Log;
 import org.w3c.dom.Document;

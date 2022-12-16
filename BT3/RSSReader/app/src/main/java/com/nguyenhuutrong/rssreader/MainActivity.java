@@ -1,4 +1,4 @@
-package com.nguyenhuutrong.bai3;
+package com.nguyenhuutrong.rssreader;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
 
 
 import java.text.DateFormat;

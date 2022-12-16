@@ -1,4 +1,4 @@
-package com.nguyenhuutrong.bai3;
+package com.nguyenhuutrong.rssreader;
 
 import org.junit.Test;
 
