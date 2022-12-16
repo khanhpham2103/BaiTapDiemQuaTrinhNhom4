@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mylinearlayout">
+
+    <!-- Có sử dụng internet nên phải được cấp quyền sử dụng internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyLinearLayout"
+        tools:targetApi="31">
+        <!-- Có 2 activity sẽ được sử dụng nên liệt kê vào -->
+
+        <!-- Trong đó MainActivity là đứa sẽ được mở đầu tiên -->
+        <activity
+            android:name="com.example.mylinearlayout.MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="WebViewActivity"
+            android:label="@string/app_name">
+        </activity>
+    </application>
+</manifest>

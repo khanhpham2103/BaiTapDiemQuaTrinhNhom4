@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PHAM PHU KHANH/Desktop/University/Years/Junior/First Semester/Moblie Beginner/BT DQT/BT1/MyTableLayout/app/src/main/res/layout/custom_dialog.xml" value="0.2129115006412997" />
+        <entry key="..\:/Users/PHAM PHU KHANH/Desktop/University/Years/Junior/First Semester/Moblie Beginner/BT DQT/BT1/MyTableLayout/app/src/main/res/layout/relative_layout.xml" value="0.259375" />
+        <entry key="..\:/Users/PHAM PHU KHANH/Desktop/University/Years/Junior/First Semester/Moblie Beginner/BT DQT/BT1/MyTableLayout/app/src/main/res/layout/table_layout.xml" value="0.2129115006412997" />
+        <entry key="..\:/Users/PHAM PHU KHANH/Desktop/University/Years/Junior/First Semester/Moblie Beginner/BT DQT/BT1/MyTableLayout/app/src/main/res/layout/test.xml" value="0.176" />
+        <entry key="..\:/Users/PHAM PHU KHANH/Desktop/University/Years/Junior/First Semester/Moblie Beginner/BT DQT/BT1/MyTableLayout/app/src/main/res/menu/mymenu.xml" value="0.2129115006412997" />
+        <entry key="..\:/Users/PHAM PHU KHANH/Desktop/University/Years/Junior/First Semester/Moblie Beginner/Practice/Test/app/src/main/res/layout/custom_dialog.xml" value="0.21138211382113822" />
+        <entry key="..\:/Users/PHAM PHU KHANH/Desktop/University/Years/Junior/First Semester/Moblie Beginner/Practice/Test/app/src/main/res/layout/main_activity.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/PHAM PHU KHANH/Desktop/University/Years/Junior/First Semester/Moblie Beginner/Practice/Test/app/src/main/res/layout/relative_layout.xml" value="0.12613981762917933" />
+        <entry key="..\:/Users/PHAM PHU KHANH/Desktop/University/Years/Junior/First Semester/Moblie Beginner/Practice/Test/app/src/main/res/layout/webview.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/PHAM PHU KHANH/Desktop/University/Years/Junior/First Semester/Moblie Beginner/Practice/Test/app/src/main/res/menu/mymenu.xml" value="0.259375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="11"
+    android:background="@color/black"
+    >
+    <!--Dòng 1 -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5.3"
+        android:weightSum="3">
+        <!--Dòng 1 Cột 1 -->
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/colorPanel1"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#6A77B7">
+        </TextView>
+
+        <!--Cột 2-->
+        <TableLayout
+            android:layout_weight="2"
+            android:weightSum="3"
+            android:layout_height="match_parent"
+            >
+
+            <!--Dòng 1 Cột 2-->
+            <TableRow
+                android:layout_weight="2"
+                >
+                <TextView
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/colorPanel3"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#A31D21">
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/colorPanel4"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#E6E6E6"></TextView>
+            </TableRow>
+
+            <!--Dòng 2 Cột 2-->
+        </TableLayout>
+    </TableRow>
+
+    <!--Dòng 2 -->
+    <TableRow
+
+        android:layout_weight="5.3"
+        android:weightSum="3"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        >
+
+        <!--Dòng 2 Cột 1 -->
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/colorPanel2"
+            android:background="#D54F97"
+            >
+        </TextView>
+        <!--Cột 2-->
+        <TableLayout
+            android:layout_weight="2"
+            android:weightSum="3"
+            android:layout_height="match_parent"
+            >
+            <TableRow
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/colorPanel4"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#E6E6E6"
+                    tools:ignore="DuplicateIds">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:layout_weight="2"
+                >
+                <TextView
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/colorPanel5"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#273A97">
+                </TextView>
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+    <!--Dòng 3 -->
+    <TableRow
+        android:layout_weight="0.4"
+        android:weightSum="1"
+        >
+        <SeekBar
+            android:id="@+id/skbColor"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+    </TableRow>
+</TableLayout>
